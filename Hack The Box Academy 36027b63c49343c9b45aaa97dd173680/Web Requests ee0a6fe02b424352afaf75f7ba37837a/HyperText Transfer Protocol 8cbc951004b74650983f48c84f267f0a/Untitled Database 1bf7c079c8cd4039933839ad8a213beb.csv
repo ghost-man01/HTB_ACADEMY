@@ -1,0 +1,7 @@
+﻿Title,Scheme,It’s used to show type of protocol mostly it’s HTTP/HTTPS
+,User-info,It’s optional feature that contains credentials in the form of username:password Which is used to authenticate to the host.
+,Host,The host signifies the resources location. This can be a host name or IP address. A colon separates a host or port.
+,Port,If port is not defined it’s port 80 otherwise it’s defined in the URL.
+,Path,This points resources being accessed which can be a file or a folder. If there is no path specified the server returns default index file hosted by it (index.html)
+,Query,The query string is preceded by a question mark(?). This is an another optional component that is used to pass information to resources.Query has parameter and value pairs in this example parameter is login and value is true. There can be multiple parameters which can be separated by ampersand(&).
+,Fragment,This is processed by browsers on the client to locate the sections within the primary resources.

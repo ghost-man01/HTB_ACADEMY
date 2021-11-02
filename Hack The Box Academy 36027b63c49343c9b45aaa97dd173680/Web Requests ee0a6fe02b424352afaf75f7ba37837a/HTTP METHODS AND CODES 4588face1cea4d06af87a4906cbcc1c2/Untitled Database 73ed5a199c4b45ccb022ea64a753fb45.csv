@@ -1,0 +1,7 @@
+﻿Type,Description
+200 OK,"Returned on a successful request, and the response usually contains the requested resources."
+302 Found,This code redirects the clients on another URL. For example : when you login and redirect you to dashboard.
+400 Bad request,Usually returned on encountering malformed requests such as requests with missing line terminators.
+403 Forbidden request,This code signifies that the doesn’t have appropriate access to the resources. It can also be returned when server detect malicious input from the user.
+404 Not found,Returned when the client want to access resources that doesn’t exist.
+500 Internal Server Error,As the name describes this code is returned when the server cannot process the request.

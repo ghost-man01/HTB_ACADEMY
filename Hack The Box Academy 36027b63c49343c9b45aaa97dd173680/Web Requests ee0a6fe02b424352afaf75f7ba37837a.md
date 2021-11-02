@@ -1,0 +1,19 @@
+# Web Requests
+
+[Authorization Types](Web%20Requests%20ee0a6fe02b424352afaf75f7ba37837a/Authorization%20Types%20466ef9970c864f41b2c49a49d8cb8f73.md)
+
+[Basic Authentication](Web%20Requests%20ee0a6fe02b424352afaf75f7ba37837a/Basic%20Authentication%20c0f87eb1765944079fc84ab234176e56.md)
+
+[GET METHOD](Web%20Requests%20ee0a6fe02b424352afaf75f7ba37837a/GET%20METHOD%20bf0ba023ce804bc886a7b794b3e61480.md)
+
+[HEADERS](Web%20Requests%20ee0a6fe02b424352afaf75f7ba37837a/HEADERS%20b695dbc1ea134dde8ed3d6b3ae89717f.md)
+
+[HTTP METHODS AND CODES](Web%20Requests%20ee0a6fe02b424352afaf75f7ba37837a/HTTP%20METHODS%20AND%20CODES%204588face1cea4d06af87a4906cbcc1c2.md)
+
+[HTTPS](Web%20Requests%20ee0a6fe02b424352afaf75f7ba37837a/HTTPS%20d3838c66321b4576945da3d35df0cb27.md)
+
+[HyperText Transfer Protocol](Web%20Requests%20ee0a6fe02b424352afaf75f7ba37837a/HyperText%20Transfer%20Protocol%208cbc951004b74650983f48c84f267f0a.md)
+
+[POST METHOD](Web%20Requests%20ee0a6fe02b424352afaf75f7ba37837a/POST%20METHOD%20c4541b8243dd49ef9fc484ae57971c93.md)
+
+[PUT & DELETE METHOD](Web%20Requests%20ee0a6fe02b424352afaf75f7ba37837a/PUT%20&%20DELETE%20METHOD%20cd40712116f54b2e8faf90e53addfa10.md)

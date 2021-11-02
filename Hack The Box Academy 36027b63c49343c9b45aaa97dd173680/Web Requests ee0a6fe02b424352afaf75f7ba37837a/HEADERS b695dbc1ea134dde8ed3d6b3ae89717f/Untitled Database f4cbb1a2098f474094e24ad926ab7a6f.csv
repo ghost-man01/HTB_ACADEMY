@@ -1,0 +1,5 @@
+﻿Title,Content Type,This header is used to describe the type of resources being transferred. The value automatically added by the browser on the client side and returned in server-response.
+,Media-type,"Media type describes data being parsed. For example media-type for a PDF is application/PDF while the type for a PNG image is image/png. The header play a crucial role in making the interpret our input. The charset field denote the encoding standards, such as UTF-8."
+,Boundary,The boundary directive acts as a maker to separate content when there is more than one in the same thing.
+,Content-Length,The Content-Length header holds the size of entity being passed. This header is necessary as the server uses it to read data from the message body.
+,Content-Encoding,Data can undergo multiple transformation before being passed. For example large amount of data can be compressed to reduce the message size. The type of encoding being used should be specified using the Content-Encoding header.

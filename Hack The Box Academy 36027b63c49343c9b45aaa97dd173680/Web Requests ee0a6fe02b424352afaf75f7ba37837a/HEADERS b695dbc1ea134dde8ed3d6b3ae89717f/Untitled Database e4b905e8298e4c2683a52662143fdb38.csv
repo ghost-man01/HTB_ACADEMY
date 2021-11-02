@@ -1,0 +1,2 @@
+﻿Title,Date,Date header holds the date and time at which the message originated.
+,Connection,The Connection header dicates if the current network stay live after the request finishes. Two commonly used values for this header are keep alive or close

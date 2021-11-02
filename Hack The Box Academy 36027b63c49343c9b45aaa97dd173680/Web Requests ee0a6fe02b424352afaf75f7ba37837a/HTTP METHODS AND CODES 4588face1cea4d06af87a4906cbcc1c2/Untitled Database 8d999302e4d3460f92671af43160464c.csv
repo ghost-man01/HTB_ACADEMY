@@ -1,0 +1,5 @@
+﻿Codes,Description
+1xx,Usually provides information and continuous processing the request.
+2xx,Positive response code returned when a request succeeds.
+3xx,Returned when the server redirects the client.
+4xx,This class of codes signifies improper request from the client. For example requesting a code that doesn’t exist

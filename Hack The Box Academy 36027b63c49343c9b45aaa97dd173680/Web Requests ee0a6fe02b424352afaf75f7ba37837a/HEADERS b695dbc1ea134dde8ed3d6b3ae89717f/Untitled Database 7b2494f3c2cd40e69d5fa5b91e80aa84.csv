@@ -1,0 +1,3 @@
+﻿Title,Server,"The Server header contains information about the HTTP server, which handled the request It can be used to gain the information about the server, such as its version, and enumerate it further."
+,Set-Cookie,The Set-Cookie header contains the cookies needed for client identification. Browser parse the cookies and store them for future requests. This header follows the same format as the Cookie header.
+,WWW-Authentication,The WWW-Authentication header notifies the client about the type of authentication required to access the requested resources.

@@ -1,0 +1,7 @@
+﻿HEADER,DESCRIPTION
+GET,"This is the most common HTTP methods, which requests a specific resources. Additional data can be passed to the server through the query string."
+POST,"This is another common HTTP method used to send data to the server. It can handle multiple types of input such as text, PDFs and other form of binary data. This data is appended in request body present after the headers. The POST method is commonly used when sending information (forms, logins) or uploading data to a website, such as images or documents."
+HEAD,This method requests the headers that would returned if the GET request was made to the server. If doesn’t return the request body and is usually made to check the response length before downloading resources.
+PUT,This method is similar to POST as it’s used to create new resources on the server. Allowing this method without proper control can lead to the addition of malicious resources (uploading malicious files to the webserver)
+DELETE,This method lets users delete an existing resources on the webserver. It can lead to Denial of Service (DOS) without proper control in place.
+OPTIONS,"This method returns information about the server, such as methods accepted by it."

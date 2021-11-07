@@ -67,6 +67,12 @@ We often find SQL injection vulnerabilities that uses Active Directory for authe
 
 A successful Password Spraying can often lead access to sensitive data such as email or even foothold directly into the corporate network environment.
 
-[Examples ](Introduction%20f7f0d832caf249639b4e1d0d55a24f85/Examples%20056fa5a022a248d392e74e717f49bf43.csv)
+||
+--|--|--
+**Flaw** | **Real world scenario** Status
+**SQL  Injection** | Obtaining active directory username and performing password spraying attack against via VPN or email portal.,
+**File Inclusion** | Reading source code to find hidden pages or directory which exposes additional functionality that can be used to gain RCE,
+**Unrestricted File Upload** | A web application that allows a user to upload a profile picture that allows any file type to be uploaded (not just images). This can be leveraged to gain full control of the web application server by uploading malicious code.",
+**Insecure Direct Object Referencing** | When combined with a flaw such as broken access control, this can often be used to access user's file or functionality. Editing your user profile browsing to a page such as /user/701/edit-profile. If we change 701 to 702 we may edit another user's profile.",REAL WORLD SCENARIO
+**Broken Access Control** | Another example is an application that allows a user to register a new account. If the account registration functionality is designed poorly, a user may perform privilege escalation when registering. Consider the POST request when registering a new user, which submits the data username=bjones&password=Welcome1&email=bjones@inlanefreight.local&roleid=3. What if we can manipulate the roleid parameter and change it to 0 or 1. We have seen real-world applications where this was the case, and it was possible to quickly register an admin user and access many unintended features of the web application.",
 
-j

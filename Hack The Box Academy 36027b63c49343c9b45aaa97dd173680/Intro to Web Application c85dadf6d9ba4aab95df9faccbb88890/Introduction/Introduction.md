@@ -3,7 +3,7 @@
 - Web applications are interactive application that run on web browsers.
 - Web applications usually adopts **client-server architectures** to run interactions.
 
-![Untitled](Introduction%20f7f0d832caf249639b4e1d0d55a24f85/Untitled.png)
+![Untitled](HTB_ACADEMY/Hack%20The%20Box%20Academy%2036027b63c49343c9b45aaa97dd173680/Intro%20to%20Web%20Application%20c85dadf6d9ba4aab95df9faccbb88890/Introduction/Untitled.png)
 
 Client-server Architecture
 
@@ -21,7 +21,7 @@ Client-server Architecture
 - These types of static pages do not contain functions, and therefore do not produce real time changes.
 - These types of websites also known as **web 1.0**
 
-![Untitled](Introduction%20f7f0d832caf249639b4e1d0d55a24f85/Untitled%201.png)
+![Untitled](HTB_ACADEMY/Hack%20The%20Box%20Academy%2036027b63c49343c9b45aaa97dd173680/Intro%20to%20Web%20Application%20c85dadf6d9ba4aab95df9faccbb88890/Introduction/Untitled%201.png)
 
 ## Web Application :
 
@@ -75,4 +75,5 @@ A successful Password Spraying can often lead access to sensitive data such as e
 **Unrestricted File Upload** | A web application that allows a user to upload a profile picture that allows any file type to be uploaded (not just images). This can be leveraged to gain full control of the web application server by uploading malicious code.",
 **Insecure Direct Object Referencing** | When combined with a flaw such as broken access control, this can often be used to access user's file or functionality. Editing your user profile browsing to a page such as /user/701/edit-profile. If we change 701 to 702 we may edit another user's profile.",REAL WORLD SCENARIO
 **Broken Access Control** | Another example is an application that allows a user to register a new account. If the account registration functionality is designed poorly, a user may perform privilege escalation when registering. Consider the POST request when registering a new user, which submits the data username=bjones&password=Welcome1&email=bjones@inlanefreight.local&roleid=3. What if we can manipulate the roleid parameter and change it to 0 or 1. We have seen real-world applications where this was the case, and it was possible to quickly register an admin user and access many unintended features of the web application.",
+
 

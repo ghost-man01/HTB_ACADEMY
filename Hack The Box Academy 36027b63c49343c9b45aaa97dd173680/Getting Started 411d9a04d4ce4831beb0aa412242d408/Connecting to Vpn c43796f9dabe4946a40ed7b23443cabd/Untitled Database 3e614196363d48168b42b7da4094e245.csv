@@ -1,4 +1,0 @@
-﻿Title,1,2
-,Bind Shell,Binds to a specific port to target host and waits for a connection from our attack box.
-,Web Shell,"Running Operating System Commands via the Web browser typically not interactive or semi- interactive. It can also be used to run single commands (i.e, leveraging the file upload vulnerability and uploading PHP script to run a single command.)"
-,Reverse Shell," Initiates a connection back to a listener to our attack box."
